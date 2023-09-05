@@ -1,0 +1,45 @@
+@font-face 
+{
+    font-family: iran;
+    src: url(iran.otf);
+}
+*{
+	font-family: iran;
+}
+.content{
+	display: none;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whole{
+	padding: 20px;
+    background: rgb(45 45 45 / 50%);
+    border-radius: 20px;
+	max-width: 300px;
+}
+
+.header{
+	font-size: 20;
+    color: rgb(255 255 255);
+    padding-bottom: 5px;
+	display: flex;
+    justify-content: center;
+}
+
+.body{
+	color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.description{
+	color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+	direction: rtl;
+    text-align: justify;
+}
